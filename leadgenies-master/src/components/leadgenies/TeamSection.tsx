@@ -166,22 +166,11 @@ export default function TeamSection({ lang = 'de' }: TeamSectionProps) {
                   fontSize: isMobile ? '1.5rem' : '2rem',
                   fontWeight: 'bold',
                   color: '#0d0d28',
-                  marginBottom: '8px'
+                  marginBottom: '24px'
                 }}
               >
                 {currentMember.name}
               </h3>
-              <p
-                style={{
-                  fontFamily: 'Inter, sans-serif',
-                  fontSize: isMobile ? '1rem' : '1.125rem',
-                  color: '#564DCA',
-                  fontWeight: '600',
-                  marginBottom: '24px'
-                }}
-              >
-                {currentMember.role}
-              </p>
 
               {/* Bio */}
               <p

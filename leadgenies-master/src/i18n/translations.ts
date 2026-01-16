@@ -432,7 +432,7 @@ export const translations = {
       members: [
         {
           name: 'Mona Petersen',
-          role: 'Senior Business Development Representative',
+          role: 'Co-Founder & Director Sales Development',
           badge: 'C-Level Spezialistin',
           image: '/mona-petersen.png',
           bio: 'Mona ist auf die Ansprache von C-Level Entscheidern spezialisiert und überzeugt durch ihre Kombination aus juristischem Fachwissen und charismatischer Persönlichkeit. Mit ihrer DSGVO-Expertise und professionellen Auftritt öffnet sie selbst bei skeptischen Geschäftsführern und Vorständen die Tür zum ersten Gespräch.',
@@ -451,7 +451,7 @@ export const translations = {
         },
         {
           name: 'Daniel Kock',
-          role: 'Lead Sales Development Representative',
+          role: 'Co-Founder & Head of Fulfillment',
           badge: 'IT & HR Spezialist',
           image: '/daniel-kock.png',
           bio: 'Daniel vereint technisches IT-Verständnis mit Erfahrung aus der Personalvermittlung. Als einer unserer Top-Setter und Closer überzeugt er durch sein tiefes Produktverständnis und seine Fähigkeit, komplexe Lösungen verständlich zu kommunizieren.',
@@ -466,6 +466,25 @@ export const translations = {
           strength: {
             title: 'Besondere Stärke',
             text: 'Spezialist für komplexe Tech-Produkte und Software-as-a-Service'
+          }
+        },
+        {
+          name: 'Maren Lucatero',
+          role: 'Senior Sales Development Representative',
+          badge: 'International & HR Expertin',
+          image: '/maren-lucatero.png',
+          bio: 'Maren bringt internationale Erfahrung aus Deutschland und Mexiko mit und verbindet HR-Expertise mit exzellenter Kundenbetreuung. Ihre organisatorische Stärke und mehrsprachige Kompetenz machen sie zur idealen Ansprechpartnerin für internationale Geschäftskunden.',
+          education: {
+            title: 'Hintergrund',
+            text: 'HR & Business Administration mit internationaler Projekterfahrung'
+          },
+          experience: {
+            title: 'Erfahrung',
+            text: 'Mehrjährige Erfahrung in Geschäftsführungsassistenz und internationalem Kundenmanagement'
+          },
+          strength: {
+            title: 'Besondere Stärke',
+            text: 'Internationale Kundenkommunikation und mehrsprachige Projektkoordination'
           }
         }
       ]
@@ -938,7 +957,7 @@ export const translations = {
       members: [
         {
           name: 'Mona Petersen',
-          role: 'Senior Business Development Representative',
+          role: 'Co-Founder & Director Sales Development',
           badge: 'C-Level Specialist',
           image: '/mona-petersen.png',
           bio: 'Mona specializes in reaching C-level decision-makers and convinces through her combination of legal expertise and charismatic personality. With her GDPR knowledge and professional presence, she opens doors to conversations even with skeptical CEOs and executives.',
@@ -957,7 +976,7 @@ export const translations = {
         },
         {
           name: 'Daniel Kock',
-          role: 'Lead Sales Development Representative',
+          role: 'Co-Founder & Head of Fulfillment',
           badge: 'IT & HR Specialist',
           image: '/daniel-kock.png',
           bio: 'Daniel combines technical IT understanding with experience from recruitment. As one of our top setters and closers, he convinces through his deep product understanding and ability to communicate complex solutions clearly.',
@@ -972,6 +991,25 @@ export const translations = {
           strength: {
             title: 'Special Strength',
             text: 'Specialist for complex tech products and Software-as-a-Service'
+          }
+        },
+        {
+          name: 'Maren Lucatero',
+          role: 'Senior Sales Development Representative',
+          badge: 'International & HR Expert',
+          image: '/maren-lucatero.png',
+          bio: 'Maren brings international experience from Germany and Mexico, combining HR expertise with excellent customer service. Her organizational strength and multilingual competence make her the ideal contact for international business clients.',
+          education: {
+            title: 'Background',
+            text: 'HR & Business Administration with international project experience'
+          },
+          experience: {
+            title: 'Experience',
+            text: 'Multiple years of experience in executive assistance and international customer management'
+          },
+          strength: {
+            title: 'Special Strength',
+            text: 'International customer communication and multilingual project coordination'
           }
         }
       ]

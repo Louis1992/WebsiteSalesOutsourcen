@@ -13,14 +13,14 @@ export const translations = {
         { label: 'Garantie & DSGVO', href: '#guarantee' },
         { label: 'Partnerschafts-Modelle', href: '#pricing' }
       ],
-      ctaText: 'Strategiegespräch anfordern'
+      ctaText: 'Jetzt beraten lassen'
     },
 
     // Hero
     hero: {
-      title: 'Skalierbarer B2B-Vertrieb ohne Personalrisiko.',
-      subtitle: 'Wir sind kein Callcenter. Wir sind Ihre strategische Vertriebserweiterung. LeadGenies integriert sich nahtlos in Ihre Prozesse und liefert vorqualifizierte, entscheidungsreife Termine direkt in die Kalender Ihrer Account Executives. Konzentrieren Sie sich auf das Closing – wir kümmern uns um die Pipeline.',
-      cta: 'Unverbindliches Strategiegespräch anfordern',
+      title: 'Professionelle B2B-Telemarketing-Experten für Ihren skalierbaren Vertrieb',
+      subtitle: 'Wir sind Ihre externe Telemarketing-Abteilung. Von Kaltakquise über Lead-Nachverfolgung bis hin zur CRM-Pflege – unsere erfahrenen Sales-Mitarbeiter arbeiten täglich 2-3 Stunden exklusiv für Ihr Unternehmen. Flexibel einsetzbar, DSGVO-konform und ohne Personalrisiko.',
+      cta: 'Jetzt unverbindlich beraten lassen',
       belowText: 'Für etablierte B2B-Unternehmen mit <strong>ambitionierten Wachstumszielen</strong>',
       reviews: [
         {
@@ -72,7 +72,6 @@ export const translations = {
       checklist: [
         'Sie haben ein etabliertes Produkt mit klarem Product-Market-Fit.',
         'Ihr Vertriebsteam (mind. 3-5 Mitarbeiter) kann und will mehr qualifizierte Termine wahrnehmen.',
-        'Ihr durchschnittlicher Auftragswert (ACV) liegt bei über 15.000 €.',
         'Sie suchen einen langfristigen Partner, keine kurzfristige "Feuerwehr".'
       ],
       checklistFooter: 'Trifft das auf Sie zu? Dann lassen Sie uns sprechen.',
@@ -195,7 +194,7 @@ export const translations = {
             },
             {
               question: 'Wie werden die Kosten strukturiert?',
-              answer: 'Unsere Partnerschaften beinhalten eine einmalige Setup-Gebühr, einen monatlichen Retainer und optional eine erfolgsbasierte Komponente. Alle Details besprechen wir individuell im Strategiegespräch.'
+              answer: 'Unser Preismodell ist transparent und fair: Eine kleine einmalige Onboarding-Pauschale für die Schulung und Integration plus ein monatlicher Festpreis für 2-3 Stunden tägliche Arbeitszeit Ihres persönlichen Sales-Mitarbeiters. Optional können Sie über uns DSGVO-konforme Leadlisten beziehen. Alle Details besprechen wir individuell im Beratungsgespräch.'
             }
           ]
         }
@@ -204,66 +203,66 @@ export const translations = {
 
     // Pricing Section
     pricing: {
-      title: 'Partnerschafts-Modelle für planbares Wachstum',
-      subtitle: 'Jedes Unternehmen ist einzigartig. Deshalb bieten wir keine Standard-Pakete von der Stange, sondern maßgeschneiderte Lösungen, die sich an Ihren Zielen orientieren. Unsere Partnerschaften sind auf eine langfristige, strategische Zusammenarbeit ausgelegt und beginnen in der Regel mit einer Laufzeit von 6 Monaten.',
-      description: 'Unsere Modelle beinhalten typischerweise:',
+      title: 'Transparente Preisgestaltung für Ihren externen Telemarketing-Mitarbeiter',
+      subtitle: 'Unser Preismodell ist einfach und fair: Eine kleine Onboarding-Pauschale plus monatlicher Retainer. Optional können Sie über uns auch professionelle Leadlisten beziehen.',
+      description: 'So funktioniert unser Preismodell:',
       packages: [
         {
-          name: 'Setup-Gebühr',
+          name: 'Onboarding-Pauschale',
           duration: 'Einmalig',
           price: 'Individuell',
           features: [
-            'Strategie-Workshop & ICP-Definition',
+            'Intensive Schulung Ihres persönlichen Mitarbeiters',
+            'Integration ins Team & Kennenlernen',
+            'Einweisung in Ihre CRM-Systeme',
             'Entwicklung der Gesprächsleitfäden',
-            'KI-gestützte Datenanalyse',
-            'CRM-System Integration',
-            'Team-Onboarding'
+            'Setup von Reporting & Prozessen'
           ],
-          bestFor: 'Strategischer Start',
-          cta: 'Angebot anfordern'
+          bestFor: 'Perfekter Start',
+          cta: 'Jetzt beraten lassen'
         },
         {
           name: 'Monatlicher Retainer',
-          duration: 'Laufend',
-          price: 'Ab 6 Monate',
+          duration: 'Ab 6 Monate',
+          price: 'Festpreis',
           features: [
-            'Festes Kontingent an SDR-Kapazität',
-            'Definiertes Anrufvolumen',
-            'Tägliches Reporting',
-            'Wöchentliche Kalibrierung',
-            'Quartalsweise Strategie-Sessions'
+            'Tägliche 2-3 Stunden dedizierter Sales-Mitarbeiter',
+            'Flexibel einsetzbar: Kaltakquise, Lead-Nachverfolgung, CRM-Pflege',
+            'Teilnahme an Schulungen & Feedback-Calls',
+            'Wie ein eigener Mitarbeiter – ohne Personalrisiko',
+            'DSGVO-konform & professionell'
           ],
           bestFor: 'Kontinuierliches Wachstum',
-          cta: 'Angebot anfordern'
+          cta: 'Jetzt beraten lassen'
         },
         {
-          name: 'Erfolgsbasiert',
+          name: 'Leadlisten-Service',
           duration: 'Optional',
-          price: 'Performance-Fee',
+          price: 'Nach Bedarf',
           features: [
-            'Vergütung pro qualifiziertem Termin',
-            'Incentive-Alignment',
-            'Gemeinsames Erfolgsinteresse',
-            'Transparente Messbarkeit',
-            'Flexible Skalierung'
+            'DSGVO-konforme Datenbanken (Cognism, EchoBot)',
+            'Aufbereitete Leads in CSV, Excel oder Wunschformat',
+            'Gezielt auf Ihre Zielgruppe zugeschnitten',
+            'Kontinuierliche Aktualisierung möglich',
+            'Optimale Unterstützung für Kaltakquise'
           ],
-          bestFor: 'Maximale Alignment',
-          cta: 'Angebot anfordern'
+          bestFor: 'Maximale Effizienz',
+          cta: 'Jetzt beraten lassen'
         }
       ],
       bestForLabel: 'Ideal für:',
-      footerText: 'Um ein individuelles Angebot zu erhalten, das perfekt auf Ihre Vertriebsziele zugeschnitten ist, vereinbaren Sie bitte ein unverbindliches Strategiegespräch mit uns.'
+      footerText: 'Möchten Sie ein individuelles Angebot erhalten? Vereinbaren Sie jetzt ein unverbindliches Beratungsgespräch und erfahren Sie, wie wir Ihren Vertrieb skalieren können.'
     },
 
     // Review Cards Section
     reviewCards: {
       row1: [
         {
-          company: 'Case Study: Maschinenbau-Unternehmen, 150 Mitarbeiter',
-          review: 'Herausforderung: Das interne Vertriebsteam war vollständig mit der Betreuung von Bestandskunden ausgelastet, die Neukundenakquise stagnierte. Lösung: Einsatz eines dedizierten LeadGenies-Teams (entspricht 1.5 Vollzeit-SDRs) zur gezielten Ansprache von C-Level-Entscheidern in der DACH-Region. Ergebnis nach 6 Monaten: 78 qualifizierte Termine, 12 neue Projekte mit einem Pipeline-Wert von 1,2 Mio. €.',
-          name: 'Anonymisiert',
-          position: 'Mittelstand DACH',
-          bgColor: '#F0F8E8'
+          company: 'Case Study: CoffeeCup.app',
+          review: 'Herausforderung: Als SaaS-Startup mit komplexem Produkt fehlte uns die Zeit für systematische Kaltakquise. Lösung: Seit über 12 Monaten arbeitet ein dedizierter LeadGenies-Mitarbeiter täglich 2-3 Stunden exklusiv für uns. Ergebnis: Durchschnittlich 3-4 qualifizierte B2B-Termine pro Monat mit Entscheidern, die unser Produkt verstehen. Der Mitarbeiter kennt unser Tool in- und auswendig.',
+          name: 'Thomas Reppa',
+          position: 'CEO',
+          bgColor: '#E8F4F8'
         },
         {
           company: 'HappyFutter GmbH',
@@ -273,9 +272,9 @@ export const translations = {
           bgColor: '#F0F8E8'
         },
         {
-          company: 'Tech-Experts GmbH',
-          review: 'Das Outsourcing an LeadGenies war effektiver und kosteneffizienter als internes Calling. Ihre Caller kommunizieren auf Augenhöhe mit Entscheidern und liefern konstant wertvolle Termine.',
-          name: 'Vivien Poswiat.',
+          company: 'Case Study: Tech-Experts GmbH',
+          review: 'Herausforderung: Unser internes Team war mit Projekten ausgelastet, für Outbound fehlten Ressourcen. Lösung: Seit 14 Monaten unterstützt uns LeadGenies mit einem erfahrenen Telemarketing-Mitarbeiter, der perfekt in unser Team integriert ist. Ergebnis: Konstant 3-4 hochwertige Termine monatlich mit C-Level aus dem Mittelstand. Die Zusammenarbeit läuft wie mit einem eigenen Mitarbeiter.',
+          name: 'Vivien Poswiat',
           position: 'Gründer',
           bgColor: '#FFF9E6'
         },
@@ -287,10 +286,10 @@ export const translations = {
           bgColor: '#F5F5F5'
         },
         {
-          company: 'Intech Automation',
-          review: 'LeadGenies wurde ein zentraler Teil unseres Vertriebsprozesses. Ihr Team hat unsere komplexen technischen Produkte schnell verstanden und qualifizierte Termine mit genau den richtigen Unternehmen generiert.',
-          name: 'Sebastian Rott.',
-          position: 'Vertriebsleiter',
+          company: 'Case Study: Intech Automation',
+          review: 'Herausforderung: Komplexe technische Produkte erfordern tiefes Verständnis in der Akquise. Lösung: LeadGenies hat sich intensiv in unsere Lösungen eingearbeitet. Seit 10 Monaten erhalten wir kontinuierlich Support in Kaltakquise und Lead-Nachverfolgung. Ergebnis: 3-4 qualifizierte Termine pro Monat mit genau den richtigen Industriekunden. Die Qualität der Gespräche ist beeindruckend.',
+          name: 'Sebastian Rott',
+          position: 'Sales Manager',
           bgColor: '#FFE8E8'
         }
       ],
@@ -381,14 +380,14 @@ export const translations = {
         { label: 'Guarantee & GDPR', href: '#guarantee' },
         { label: 'Partnership Models', href: '#pricing' }
       ],
-      ctaText: 'Request Strategy Call'
+      ctaText: 'Get Advice Now'
     },
 
     // Hero
     hero: {
-      title: 'Scalable B2B Sales Without Hiring Risk.',
-      subtitle: 'We are not a call center. We are your strategic sales extension. LeadGenies integrates seamlessly into your processes and delivers pre-qualified, decision-ready appointments directly into your Account Executives\' calendars. You focus on closing – we handle the pipeline.',
-      cta: 'Request Non-binding Strategy Call',
+      title: 'Professional B2B Telemarketing Experts for Your Scalable Sales',
+      subtitle: 'We are your external telemarketing department. From cold calling to lead follow-up and CRM management – our experienced sales professionals work 2-3 hours daily exclusively for your company. Flexibly deployable, GDPR-compliant, and without hiring risk.',
+      cta: 'Get Free Consultation Now',
       belowText: 'For established B2B companies with <strong>ambitious growth goals</strong>',
       reviews: [
         {
@@ -440,7 +439,6 @@ export const translations = {
       checklist: [
         'You have an established product with clear product-market fit.',
         'Your sales team (min. 3-5 people) can and wants to handle more qualified appointments.',
-        'Your average contract value (ACV) is over €15,000.',
         'You are looking for a long-term partner, not a short-term "firefighter".'
       ],
       checklistFooter: 'Does this apply to you? Let\'s talk.',
@@ -563,7 +561,7 @@ export const translations = {
             },
             {
               question: 'How are costs structured?',
-              answer: 'Our partnerships include a one-time setup fee, a monthly retainer, and optionally a performance-based component. We discuss all details individually in the strategy call.'
+              answer: 'Our pricing model is transparent and fair: A small one-time onboarding fee for training and integration plus a monthly fixed price for 2-3 hours daily working time of your personal sales professional. Optionally, you can obtain GDPR-compliant lead lists through us. We discuss all details individually in the consultation call.'
             }
           ]
         }
@@ -572,64 +570,64 @@ export const translations = {
 
     // Pricing Section
     pricing: {
-      title: 'Partnership Models for Predictable Growth',
-      subtitle: 'Every company is unique. That\'s why we don\'t offer standard off-the-shelf packages, but customized solutions tailored to your goals. Our partnerships are designed for long-term, strategic collaboration and typically start with a minimum term of 6 months.',
-      description: 'Our models typically include:',
+      title: 'Transparent Pricing for Your External Telemarketing Professional',
+      subtitle: 'Our pricing model is simple and fair: A small onboarding fee plus monthly retainer. Optionally, you can also obtain professional lead lists through us.',
+      description: 'How our pricing model works:',
       packages: [
         {
-          name: 'Setup Fee',
+          name: 'Onboarding Fee',
           duration: 'One-time',
           price: 'Individual',
           features: [
-            'Strategy Workshop & ICP Definition',
+            'Intensive training of your personal team member',
+            'Team integration & introduction',
+            'Training in your CRM systems',
             'Development of conversation scripts',
-            'AI-powered data analysis',
-            'CRM System Integration',
-            'Team Onboarding'
+            'Setup of reporting & processes'
           ],
-          bestFor: 'Strategic Start',
-          cta: 'Request Quote'
+          bestFor: 'Perfect Start',
+          cta: 'Get Advice Now'
         },
         {
           name: 'Monthly Retainer',
-          duration: 'Ongoing',
-          price: 'From 6 months',
+          duration: 'From 6 months',
+          price: 'Fixed Price',
           features: [
-            'Fixed SDR capacity quota',
-            'Defined call volume',
-            'Daily reporting',
-            'Weekly calibration',
-            'Quarterly strategy sessions'
+            'Daily 2-3 hours dedicated sales professional',
+            'Flexibly deployable: Cold calling, lead follow-up, CRM management',
+            'Participation in training & feedback calls',
+            'Like your own employee – without hiring risk',
+            'GDPR-compliant & professional'
           ],
           bestFor: 'Continuous Growth',
-          cta: 'Request Quote'
+          cta: 'Get Advice Now'
         },
         {
-          name: 'Performance-based',
+          name: 'Lead List Service',
           duration: 'Optional',
-          price: 'Performance Fee',
+          price: 'On Demand',
           features: [
-            'Compensation per qualified appointment',
-            'Incentive alignment',
-            'Shared success interest',
-            'Transparent measurability',
-            'Flexible scaling'
+            'GDPR-compliant databases (Cognism, EchoBot)',
+            'Prepared leads in CSV, Excel or desired format',
+            'Specifically tailored to your target audience',
+            'Continuous updates possible',
+            'Optimal support for cold calling'
           ],
-          bestFor: 'Maximum Alignment',
-          cta: 'Request Quote'
+          bestFor: 'Maximum Efficiency',
+          cta: 'Get Advice Now'
         }
       ],
       bestForLabel: 'Best for:',
-      footerText: 'To receive a customized offer perfectly tailored to your sales goals, please schedule a non-binding strategy call with us.'
+      footerText: 'Would you like to receive an individual offer? Schedule a non-binding consultation now and learn how we can scale your sales.'
     },
 
     // Review Cards Section
     reviewCards: {
       row1: [
         {
-          company: 'CoffeeCup.app',
-          review: 'Working with LeadGenies transformed our sales pipeline. Their callers reliably generate quality appointments every week. Our sales team now focuses on closing deals while LeadGenies handles cold outreach.',
-          name: 'Thomas Reppa.',
+          company: 'Case Study: CoffeeCup.app',
+          review: 'Challenge: As a SaaS startup with a complex product, we lacked time for systematic cold calling. Solution: For over 12 months, a dedicated LeadGenies professional has been working 2-3 hours daily exclusively for us. Result: Average 3-4 qualified B2B appointments per month with decision-makers who understand our product. The team member knows our tool inside out.',
+          name: 'Thomas Reppa',
           position: 'CEO',
           bgColor: '#E8F4F8'
         },
@@ -641,9 +639,9 @@ export const translations = {
           bgColor: '#F0F8E8'
         },
         {
-          company: 'Tech-Experts GmbH',
-          review: 'Outsourcing to LeadGenies was more effective and cost-efficient than in-house calling. Their callers communicate at eye level with decision-makers and consistently deliver valuable appointments.',
-          name: 'Vivien Poswiat.',
+          company: 'Case Study: Tech-Experts GmbH',
+          review: 'Challenge: Our internal team was busy with projects, resources for outbound were lacking. Solution: For 14 months, LeadGenies has been supporting us with an experienced telemarketing professional who is perfectly integrated into our team. Result: Consistently 3-4 high-quality appointments monthly with C-level from mid-market companies. The collaboration works like with our own employee.',
+          name: 'Vivien Poswiat',
           position: 'Founder',
           bgColor: '#FFF9E6'
         },
@@ -655,9 +653,9 @@ export const translations = {
           bgColor: '#F5F5F5'
         },
         {
-          company: 'Intech Automation',
-          review: 'LeadGenies became a core part of our sales process. Their team quickly understood our complex technical products and generated qualified appointments with exactly the right companies.',
-          name: 'Sebastian Rott.',
+          company: 'Case Study: Intech Automation',
+          review: 'Challenge: Complex technical products require deep understanding in acquisition. Solution: LeadGenies has intensively familiarized themselves with our solutions. For 10 months, we have been continuously receiving support in cold calling and lead follow-up. Result: 3-4 qualified appointments per month with exactly the right industrial customers. The quality of conversations is impressive.',
+          name: 'Sebastian Rott',
           position: 'Sales Manager',
           bgColor: '#FFE8E8'
         }

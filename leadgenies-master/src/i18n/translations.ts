@@ -341,7 +341,7 @@ export const translations = {
           company: 'CoffeeCup.app',
           logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/app-v1.svg',
           industry: 'SaaS / B2B Software',
-          duration: '12+ Monate',
+          duration: '12 Monate',
           challenge: {
             title: 'Die Herausforderung',
             text: 'Als schnell wachsendes SaaS-Startup mit einem komplexen Produkt fehlte CoffeeCup.app die Zeit und Ressourcen für systematische Kaltakquise. Das interne Team war vollständig mit Produktentwicklung und Bestandskundenpflege ausgelastet.'
@@ -353,8 +353,8 @@ export const translations = {
           results: {
             title: 'Das Ergebnis',
             metrics: [
-              { value: '3-4', label: 'Qualifizierte Termine/Monat' },
-              { value: '12+', label: 'Monate erfolgreiche Zusammenarbeit' },
+              { value: '31', label: 'Termine in 12 Wochen' },
+              { value: '12', label: 'Monate erfolgreiche Zusammenarbeit' },
               { value: '100%', label: 'Produktkenntnisse des Mitarbeiters' }
             ],
             quote: 'Der LeadGenies-Mitarbeiter kennt unser Tool in- und auswendig. Die Termine sind hochqualifiziert und die Entscheider verstehen unser Produkt bereits beim ersten Gespräch.'
@@ -369,20 +369,20 @@ export const translations = {
           company: 'Tech-Experts GmbH',
           logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/Logo-TEC-Experts-v1.svg',
           industry: 'IT-Beratung / B2B Services',
-          duration: '14+ Monate',
+          duration: '4 Monate',
           challenge: {
             title: 'Die Herausforderung',
             text: 'Das interne Team von Tech-Experts war vollständig mit laufenden Projekten ausgelastet. Für proaktiven Outbound-Vertrieb fehlten schlichtweg die Kapazitäten, wodurch Wachstumspotenziale ungenutzt blieben.'
           },
           solution: {
             title: 'Die Lösung',
-            text: 'LeadGenies stellt seit 14 Monaten einen erfahrenen Telemarketing-Mitarbeiter, der perfekt ins Team integriert ist. Er nimmt an internen Meetings teil, nutzt die CRM-Systeme und arbeitet eng mit dem Vertriebsleiter zusammen.'
+            text: 'LeadGenies stellt seit 4 Monaten einen erfahrenen Telemarketing-Mitarbeiter, der perfekt ins Team integriert ist. Er nimmt an internen Meetings teil, nutzt die CRM-Systeme und arbeitet eng mit dem Vertriebsleiter zusammen.'
           },
           results: {
             title: 'Das Ergebnis',
             metrics: [
-              { value: '3-4', label: 'C-Level Termine/Monat' },
-              { value: '14+', label: 'Monate Partnerschaft' },
+              { value: '18', label: 'Termine in 6 Wochen' },
+              { value: '4', label: 'Monate Partnerschaft' },
               { value: '95%', label: 'Show-up Rate der Termine' }
             ],
             quote: 'Die Zusammenarbeit läuft wie mit einem eigenen Mitarbeiter. Konstant hochwertige Termine mit Entscheidern aus dem Mittelstand – genau unsere Zielgruppe.'
@@ -409,7 +409,7 @@ export const translations = {
           results: {
             title: 'Das Ergebnis',
             metrics: [
-              { value: '3-4', label: 'Qualifizierte Termine/Monat' },
+              { value: '13', label: 'Termine/Monat im Durchschnitt' },
               { value: '10+', label: 'Monate kontinuierlicher Support' },
               { value: '100%', label: 'Technische Gesprächsqualität' }
             ],
@@ -801,7 +801,7 @@ export const translations = {
           company: 'CoffeeCup.app',
           logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/app-v1.svg',
           industry: 'SaaS / B2B Software',
-          duration: '12+ Months',
+          duration: '12 Months',
           challenge: {
             title: 'The Challenge',
             text: 'As a fast-growing SaaS startup with a complex product, CoffeeCup.app lacked the time and resources for systematic cold calling. The internal team was fully occupied with product development and existing customer care.'
@@ -813,8 +813,8 @@ export const translations = {
           results: {
             title: 'The Result',
             metrics: [
-              { value: '3-4', label: 'Qualified Appointments/Month' },
-              { value: '12+', label: 'Months Successful Partnership' },
+              { value: '31', label: 'Appointments in 12 Weeks' },
+              { value: '12', label: 'Months Successful Partnership' },
               { value: '100%', label: 'Product Knowledge of Team Member' }
             ],
             quote: 'The LeadGenies team member knows our tool inside out. The appointments are highly qualified and decision-makers already understand our product in the first conversation.'
@@ -829,20 +829,20 @@ export const translations = {
           company: 'Tech-Experts GmbH',
           logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/Logo-TEC-Experts-v1.svg',
           industry: 'IT Consulting / B2B Services',
-          duration: '14+ Months',
+          duration: '4 Months',
           challenge: {
             title: 'The Challenge',
             text: 'Tech-Experts\' internal team was fully occupied with ongoing projects. There was simply no capacity for proactive outbound sales, leaving growth potential untapped.'
           },
           solution: {
             title: 'The Solution',
-            text: 'LeadGenies has been providing an experienced telemarketing professional for 14 months who is perfectly integrated into the team. He participates in internal meetings, uses the CRM systems, and works closely with the sales manager.'
+            text: 'LeadGenies has been providing an experienced telemarketing professional for 4 months who is perfectly integrated into the team. He participates in internal meetings, uses the CRM systems, and works closely with the sales manager.'
           },
           results: {
             title: 'The Result',
             metrics: [
-              { value: '3-4', label: 'C-Level Appointments/Month' },
-              { value: '14+', label: 'Months Partnership' },
+              { value: '18', label: 'Appointments in 6 Weeks' },
+              { value: '4', label: 'Months Partnership' },
               { value: '95%', label: 'Appointment Show-up Rate' }
             ],
             quote: 'The collaboration works like with our own employee. Consistently high-quality appointments with decision-makers from mid-market companies – exactly our target audience.'
@@ -869,7 +869,7 @@ export const translations = {
           results: {
             title: 'The Result',
             metrics: [
-              { value: '3-4', label: 'Qualified Appointments/Month' },
+              { value: '13', label: 'Appointments/Month on Average' },
               { value: '10+', label: 'Months Continuous Support' },
               { value: '100%', label: 'Technical Conversation Quality' }
             ],

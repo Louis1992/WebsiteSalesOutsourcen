@@ -117,16 +117,23 @@ export default function TeamSection({ lang = 'de' }: TeamSectionProps) {
             }}
           >
             {/* Photo */}
-            <div style={{ position: 'relative' }}>
+            <div
+              style={{
+                position: 'relative',
+                overflow: 'hidden',
+                borderRadius: '16px',
+                boxShadow: '0 10px 40px rgba(0, 0, 0, 0.1)'
+              }}
+            >
               <img
                 src={currentMember.image}
                 alt={currentMember.name}
                 style={{
                   width: '100%',
                   height: 'auto',
-                  borderRadius: '16px',
-                  boxShadow: '0 10px 40px rgba(0, 0, 0, 0.1)',
-                  objectFit: 'cover'
+                  objectFit: 'cover',
+                  transform: currentMember.name === 'Mona Petersen' ? 'scale(1.15)' : 'scale(1)',
+                  transformOrigin: 'center center'
                 }}
               />
               {/* Badge */}

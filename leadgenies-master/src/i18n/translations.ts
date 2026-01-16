@@ -433,20 +433,20 @@ export const translations = {
         {
           name: 'Mona Petersen',
           role: 'Senior Business Development Representative',
-          badge: 'DSGVO-Expertin',
+          badge: 'C-Level Spezialistin',
           image: '/mona-petersen.png',
-          bio: 'Mona bringt ihre juristische Ausbildung und tiefes DSGVO-Verständnis in jeden Kundenkontakt ein. Als charismatische und versierte Callerin schafft sie es mühelos, auch skeptische Entscheider zu erreichen und einen professionellen Erstkontakt herzustellen.',
+          bio: 'Mona ist auf die Ansprache von C-Level Entscheidern spezialisiert und überzeugt durch ihre Kombination aus juristischem Fachwissen und charismatischer Persönlichkeit. Mit ihrer DSGVO-Expertise und professionellen Auftritt öffnet sie selbst bei skeptischen Geschäftsführern und Vorständen die Tür zum ersten Gespräch.',
           education: {
             title: 'Hintergrund',
             text: 'Rechtswissenschaften (Jura) mit Spezialisierung auf Datenschutzrecht'
           },
           experience: {
             title: 'Erfahrung',
-            text: '5+ Jahre B2B-Vertrieb in regulierten Branchen'
+            text: '5+ Jahre C-Level Akquise in regulierten B2B-Branchen'
           },
           strength: {
             title: 'Besondere Stärke',
-            text: 'Exzellent im Aufbau von Vertrauen bei männlichen C-Level Entscheidern'
+            text: 'Spezialistin für Geschäftsführer und C-Level im Mittelstand – schafft Vertrauen auf Augenhöhe'
           }
         },
         {
@@ -513,19 +513,19 @@ export const translations = {
     // Header
     header: {
       menuItems: [
-        { label: 'What We Do', href: '#hero' },
-        { label: 'How It Works', href: '#how-it-works' },
+        { label: 'About', href: '#hero' },
+        { label: 'Process', href: '#how-it-works' },
         { label: 'ROI Calculator', href: '#roi-calculator' },
-        { label: 'Guarantee & GDPR', href: '#guarantee' },
-        { label: 'Pricing Model', href: '#pricing' }
+        { label: 'Guarantee', href: '#guarantee' },
+        { label: 'Pricing', href: '#pricing' }
       ],
-      ctaText: 'Get Advice Now'
+      ctaText: 'Get Consultation'
     },
 
     // Hero
     hero: {
       title: 'Professional B2B Telemarketing Experts for Your Scalable Sales',
-      subtitle: 'We are your external telemarketing department. From cold calling to lead follow-up and CRM management – our experienced sales professionals work 2-3 hours daily exclusively for your company. Flexibly deployable, GDPR-compliant, and without hiring risk.',
+      subtitle: 'Your external telemarketing team. Our experienced sales professionals work 2-3 hours daily exclusively for you – from cold calling to CRM management. GDPR-compliant and without hiring risk.',
       cta: 'Get Free Consultation Now',
       belowText: 'For established B2B companies with <strong>ambitious growth goals</strong>',
       reviews: [
@@ -939,20 +939,20 @@ export const translations = {
         {
           name: 'Mona Petersen',
           role: 'Senior Business Development Representative',
-          badge: 'GDPR Expert',
+          badge: 'C-Level Specialist',
           image: '/mona-petersen.png',
-          bio: 'Mona brings her legal background and deep GDPR expertise to every client interaction. As a charismatic and skilled caller, she effortlessly connects with even skeptical decision-makers and establishes professional first contacts.',
+          bio: 'Mona specializes in reaching C-level decision-makers and convinces through her combination of legal expertise and charismatic personality. With her GDPR knowledge and professional presence, she opens doors to conversations even with skeptical CEOs and executives.',
           education: {
             title: 'Background',
             text: 'Law degree with specialization in data protection law'
           },
           experience: {
             title: 'Experience',
-            text: '5+ years B2B sales in regulated industries'
+            text: '5+ years C-level acquisition in regulated B2B industries'
           },
           strength: {
             title: 'Special Strength',
-            text: 'Excellent at building trust with male C-level decision-makers'
+            text: 'Specialist for CEOs and C-level in mid-market – builds trust at eye level'
           }
         },
         {

@@ -378,18 +378,18 @@ export const translations = {
         { label: 'What We Do', href: '#hero' },
         { label: 'How It Works', href: '#how-it-works' },
         { label: 'ROI Calculator', href: '#roi-calculator' },
-        { label: 'Our Guarantee', href: '#guarantee' },
-        { label: 'Pricing', href: '#pricing' }
+        { label: 'Guarantee & GDPR', href: '#guarantee' },
+        { label: 'Partnership Models', href: '#pricing' }
       ],
-      ctaText: 'Book a Strategy Call'
+      ctaText: 'Request Strategy Call'
     },
 
     // Hero
     hero: {
-      title: 'More B2B Appointments by Real Experts – Powered by AI Data',
-      subtitle: 'We fill your calendar with qualified leads. Our professional callers use cutting-edge data analysis for maximum success rates – where human expertise meets precision.',
-      cta: 'Speak with us',
-      belowText: 'Join <strong>10,000+</strong> successful German companies using telemarketing as their #1 sales channel',
+      title: 'Scalable B2B Sales Without Hiring Risk.',
+      subtitle: 'We are not a call center. We are your strategic sales extension. LeadGenies integrates seamlessly into your processes and delivers pre-qualified, decision-ready appointments directly into your Account Executives\' calendars. You focus on closing – we handle the pipeline.',
+      cta: 'Request Non-binding Strategy Call',
+      belowText: 'For established B2B companies with <strong>ambitious growth goals</strong>',
       reviews: [
         {
           logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/Logo-TEC-Experts-v1.svg',
@@ -434,7 +434,16 @@ export const translations = {
 
     // Trust Section
     trust: {
-      title: 'Trusted by top companies ready to scale',
+      title: 'Is LeadGenies the right solution for you?',
+      subtitle: 'We work with established B2B companies (20+ employees) that already have a functioning sales team and want to systematically scale their sales process. Our partners see appointment setting not as a stopgap measure, but as a strategic lever for predictable growth.',
+      checklistTitle: 'Qualification Checklist',
+      checklist: [
+        'You have an established product with clear product-market fit.',
+        'Your sales team (min. 3-5 people) can and wants to handle more qualified appointments.',
+        'Your average contract value (ACV) is over €15,000.',
+        'You are looking for a long-term partner, not a short-term "firefighter".'
+      ],
+      checklistFooter: 'Does this apply to you? Let\'s talk.',
       stats: [
         { label: 'Satisfied Partners' },
         { label: 'Conversations Held' },
@@ -507,16 +516,20 @@ export const translations = {
           title: 'About Our Service',
           items: [
             {
-              question: 'How does AI enhance your cold calling?',
-              answer: 'We use AI for ICP analysis, lead scoring, and conversation insights'
+              question: 'What distinguishes you from a traditional call center?',
+              answer: 'We are an external SDR (Sales Development Representative) department. Our team consists of highly qualified sales professionals who communicate at eye level with decision-makers. The focus is on the quality and depth of conversations, not on pure call volume. We also use AI technology for data analysis and process optimization, which sets us apart from traditional agencies.'
             },
             {
-              question: 'What makes you different from other agencies?',
-              answer: 'Combination of German expertise + AI technology'
+              question: 'Why is there no 1-month trial period?',
+              answer: 'Sustainable sales development is a marathon, not a sprint. The first month is for onboarding, training, and calibration. Reliable results and significant pipeline development typically show from the second and third month onwards. A 1-month collaboration would be unprofessional and would not meet your and our quality standards.'
+            },
+            {
+              question: 'For which companies is your service NOT suitable?',
+              answer: 'Our service is not suitable for startups in the pre-seed/seed phase, companies without their own sales team, or companies whose products/services have a very low contract value. We create the greatest added value for established companies that have a functioning process and want to scale it.'
             },
             {
               question: 'Which industries do you serve?',
-              answer: 'B2B SaaS, IT, Consulting, Real Estate, Professional Services'
+              answer: 'B2B SaaS, IT, Consulting, Real Estate, Professional Services – all industries with complex products and higher contract values (ACV €15,000+)'
             }
           ]
         },
@@ -525,32 +538,32 @@ export const translations = {
           items: [
             {
               question: 'How does waterfall enrichment work?',
-              answer: 'Multiple data sources validated in sequence'
+              answer: 'Multiple data sources are validated sequentially to ensure the highest data quality for your target audience'
             },
             {
               question: 'What is company lookalike technology?',
-              answer: 'AI finds similar companies to your best customers'
+              answer: 'Our AI finds similar companies to your best customers to maximize your success rate'
             },
             {
               question: 'How do you ensure data quality?',
-              answer: '7-step verification process with 99% accuracy'
+              answer: '7-step verification process with 99% accuracy and continuous validation'
             }
           ]
         },
         {
-          title: 'Results & Pricing',
+          title: 'Results & Investment',
           items: [
             {
               question: 'What results can I expect?',
-              answer: 'Average 12-15 qualified appointments per month'
+              answer: 'Average 12-15 qualified appointments per month, depending on your industry and target audience'
             },
             {
               question: 'How quickly can we start?',
-              answer: '48 hours from contract to first call'
+              answer: 'After the strategy workshop, we start active market cultivation within 7-10 days'
             },
             {
-              question: 'Do you offer custom packages?',
-              answer: 'Yes, based on your specific needs'
+              question: 'How are costs structured?',
+              answer: 'Our partnerships include a one-time setup fee, a monthly retainer, and optionally a performance-based component. We discuss all details individually in the strategy call.'
             }
           ]
         }
@@ -559,52 +572,55 @@ export const translations = {
 
     // Pricing Section
     pricing: {
-      title: 'Transparent Pricing for Predictable Growth',
-      subtitle: 'Choose your commitment level - scale your success',
+      title: 'Partnership Models for Predictable Growth',
+      subtitle: 'Every company is unique. That\'s why we don\'t offer standard off-the-shelf packages, but customized solutions tailored to your goals. Our partnerships are designed for long-term, strategic collaboration and typically start with a minimum term of 6 months.',
+      description: 'Our models typically include:',
       packages: [
         {
-          name: 'Test Month',
-          duration: '1 Month',
-          price: 'Price on Request',
+          name: 'Setup Fee',
+          duration: 'One-time',
+          price: 'Individual',
           features: [
-            '50 calls/day',
-            'Weekly optimization',
-            'Money-back guarantee',
-            'Basic reporting'
+            'Strategy Workshop & ICP Definition',
+            'Development of conversation scripts',
+            'AI-powered data analysis',
+            'CRM System Integration',
+            'Team Onboarding'
           ],
-          bestFor: 'Testing the waters',
+          bestFor: 'Strategic Start',
           cta: 'Request Quote'
         },
         {
-          name: 'Growth Package',
-          duration: '3 Months',
-          price: 'Price on Request',
+          name: 'Monthly Retainer',
+          duration: 'Ongoing',
+          price: 'From 6 months',
           features: [
-            'Everything in Test Month',
-            'Dedicated account manager',
-            'Advanced AI insights',
-            'Custom ICP workshop',
-            'Priority support'
+            'Fixed SDR capacity quota',
+            'Defined call volume',
+            'Daily reporting',
+            'Weekly calibration',
+            'Quarterly strategy sessions'
           ],
-          bestFor: 'Serious growth',
+          bestFor: 'Continuous Growth',
           cta: 'Request Quote'
         },
         {
-          name: 'Scale Package',
-          duration: '6 Months',
-          price: 'Price on Request',
+          name: 'Performance-based',
+          duration: 'Optional',
+          price: 'Performance Fee',
           features: [
-            'Everything in Growth',
-            'Multi-channel outreach',
-            'C-level targeting',
-            'Quarterly strategy sessions',
-            'Custom integrations'
+            'Compensation per qualified appointment',
+            'Incentive alignment',
+            'Shared success interest',
+            'Transparent measurability',
+            'Flexible scaling'
           ],
-          bestFor: 'Market domination',
+          bestFor: 'Maximum Alignment',
           cta: 'Request Quote'
         }
       ],
-      bestForLabel: 'Best for:'
+      bestForLabel: 'Best for:',
+      footerText: 'To receive a customized offer perfectly tailored to your sales goals, please schedule a non-binding strategy call with us.'
     },
 
     // Review Cards Section

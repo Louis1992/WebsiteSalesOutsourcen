@@ -452,7 +452,7 @@ export const translations = {
         {
           name: 'Daniel Kock',
           role: 'Lead Sales Development Representative',
-          badge: 'Top-Performer',
+          badge: 'IT & HR Spezialist',
           image: '/daniel-kock.png',
           bio: 'Daniel vereint technisches IT-Verständnis mit Erfahrung aus der Personalvermittlung. Als einer unserer Top-Setter und Closer überzeugt er durch sein tiefes Produktverständnis und seine Fähigkeit, komplexe Lösungen verständlich zu kommunizieren.',
           education: {
@@ -958,7 +958,7 @@ export const translations = {
         {
           name: 'Daniel Kock',
           role: 'Lead Sales Development Representative',
-          badge: 'Top Performer',
+          badge: 'IT & HR Specialist',
           image: '/daniel-kock.png',
           bio: 'Daniel combines technical IT understanding with experience from recruitment. As one of our top setters and closers, he convinces through his deep product understanding and ability to communicate complex solutions clearly.',
           education: {

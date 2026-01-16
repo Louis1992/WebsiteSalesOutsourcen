@@ -140,7 +140,7 @@ export default function TeamSection({ lang = 'de' }: TeamSectionProps) {
               <div
                 style={{
                   position: 'absolute',
-                  bottom: '-15px',
+                  bottom: '25px',
                   left: '50%',
                   transform: 'translateX(-50%)',
                   backgroundColor: '#564DCA',

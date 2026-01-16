@@ -11,7 +11,7 @@ export const translations = {
         { label: 'So funktioniert es', href: '#how-it-works' },
         { label: 'ROI-Rechner', href: '#roi-calculator' },
         { label: 'Garantie & DSGVO', href: '#guarantee' },
-        { label: 'Partnerschafts-Modelle', href: '#pricing' }
+        { label: 'Vergütungsmodell', href: '#pricing' }
       ],
       ctaText: 'Jetzt beraten lassen'
     },
@@ -258,9 +258,9 @@ export const translations = {
     reviewCards: {
       row1: [
         {
-          company: 'Case Study: CoffeeCup.app',
-          review: 'Herausforderung: Als SaaS-Startup mit komplexem Produkt fehlte uns die Zeit für systematische Kaltakquise. Lösung: Seit über 12 Monaten arbeitet ein dedizierter LeadGenies-Mitarbeiter täglich 2-3 Stunden exklusiv für uns. Ergebnis: Durchschnittlich 3-4 qualifizierte B2B-Termine pro Monat mit Entscheidern, die unser Produkt verstehen. Der Mitarbeiter kennt unser Tool in- und auswendig.',
-          name: 'Thomas Reppa',
+          company: 'CoffeeCup.app',
+          review: 'Die Zusammenarbeit mit LeadGenies hat unsere Vertriebspipeline transformiert. Ihre Caller generieren zuverlässig jede Woche qualitativ hochwertige Termine. Unser Vertriebsteam kann sich jetzt auf den Abschluss konzentrieren, während LeadGenies die Kaltakquise übernimmt.',
+          name: 'Thomas Reppa.',
           position: 'CEO',
           bgColor: '#E8F4F8'
         },
@@ -272,9 +272,9 @@ export const translations = {
           bgColor: '#F0F8E8'
         },
         {
-          company: 'Case Study: Tech-Experts GmbH',
-          review: 'Herausforderung: Unser internes Team war mit Projekten ausgelastet, für Outbound fehlten Ressourcen. Lösung: Seit 14 Monaten unterstützt uns LeadGenies mit einem erfahrenen Telemarketing-Mitarbeiter, der perfekt in unser Team integriert ist. Ergebnis: Konstant 3-4 hochwertige Termine monatlich mit C-Level aus dem Mittelstand. Die Zusammenarbeit läuft wie mit einem eigenen Mitarbeiter.',
-          name: 'Vivien Poswiat',
+          company: 'Tech-Experts GmbH',
+          review: 'Das Outsourcing an LeadGenies war effektiver und kosteneffizienter als internes Calling. Ihre Caller kommunizieren auf Augenhöhe mit Entscheidern und liefern konstant wertvolle Termine.',
+          name: 'Vivien Poswiat.',
           position: 'Gründer',
           bgColor: '#FFF9E6'
         },
@@ -286,10 +286,10 @@ export const translations = {
           bgColor: '#F5F5F5'
         },
         {
-          company: 'Case Study: Intech Automation',
-          review: 'Herausforderung: Komplexe technische Produkte erfordern tiefes Verständnis in der Akquise. Lösung: LeadGenies hat sich intensiv in unsere Lösungen eingearbeitet. Seit 10 Monaten erhalten wir kontinuierlich Support in Kaltakquise und Lead-Nachverfolgung. Ergebnis: 3-4 qualifizierte Termine pro Monat mit genau den richtigen Industriekunden. Die Qualität der Gespräche ist beeindruckend.',
-          name: 'Sebastian Rott',
-          position: 'Sales Manager',
+          company: 'Intech Automation',
+          review: 'LeadGenies wurde ein zentraler Teil unseres Vertriebsprozesses. Ihr Team hat unsere komplexen technischen Produkte schnell verstanden und qualifizierte Termine mit genau den richtigen Unternehmen generiert.',
+          name: 'Sebastian Rott.',
+          position: 'Vertriebsleiter',
           bgColor: '#FFE8E8'
         }
       ],
@@ -330,6 +330,99 @@ export const translations = {
           bgColor: '#F5F5F5'
         }
       ]
+    },
+
+    // Case Studies Section
+    caseStudies: {
+      title: 'Erfolgsgeschichten unserer Kunden',
+      subtitle: 'Wie etablierte B2B-Unternehmen mit LeadGenies ihren Vertrieb skalieren',
+      studies: [
+        {
+          company: 'CoffeeCup.app',
+          logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/app-v1.svg',
+          industry: 'SaaS / B2B Software',
+          duration: '12+ Monate',
+          challenge: {
+            title: 'Die Herausforderung',
+            text: 'Als schnell wachsendes SaaS-Startup mit einem komplexen Produkt fehlte CoffeeCup.app die Zeit und Ressourcen für systematische Kaltakquise. Das interne Team war vollständig mit Produktentwicklung und Bestandskundenpflege ausgelastet.'
+          },
+          solution: {
+            title: 'Die Lösung',
+            text: 'Seit über 12 Monaten arbeitet ein dedizierter LeadGenies-Mitarbeiter täglich 2-3 Stunden exklusiv für CoffeeCup. Nach intensiver Produktschulung führt er selbstständig Kaltakquise durch und pflegt das CRM-System.'
+          },
+          results: {
+            title: 'Das Ergebnis',
+            metrics: [
+              { value: '3-4', label: 'Qualifizierte Termine/Monat' },
+              { value: '12+', label: 'Monate erfolgreiche Zusammenarbeit' },
+              { value: '100%', label: 'Produktkenntnisse des Mitarbeiters' }
+            ],
+            quote: 'Der LeadGenies-Mitarbeiter kennt unser Tool in- und auswendig. Die Termine sind hochqualifiziert und die Entscheider verstehen unser Produkt bereits beim ersten Gespräch.'
+          },
+          testimonial: {
+            name: 'Thomas Reppa',
+            position: 'CEO',
+            image: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/Aerion_-Coffee-Cup.png'
+          }
+        },
+        {
+          company: 'Tech-Experts GmbH',
+          logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/Logo-TEC-Experts-v1.svg',
+          industry: 'IT-Beratung / B2B Services',
+          duration: '14+ Monate',
+          challenge: {
+            title: 'Die Herausforderung',
+            text: 'Das interne Team von Tech-Experts war vollständig mit laufenden Projekten ausgelastet. Für proaktiven Outbound-Vertrieb fehlten schlichtweg die Kapazitäten, wodurch Wachstumspotenziale ungenutzt blieben.'
+          },
+          solution: {
+            title: 'Die Lösung',
+            text: 'LeadGenies stellt seit 14 Monaten einen erfahrenen Telemarketing-Mitarbeiter, der perfekt ins Team integriert ist. Er nimmt an internen Meetings teil, nutzt die CRM-Systeme und arbeitet eng mit dem Vertriebsleiter zusammen.'
+          },
+          results: {
+            title: 'Das Ergebnis',
+            metrics: [
+              { value: '3-4', label: 'C-Level Termine/Monat' },
+              { value: '14+', label: 'Monate Partnerschaft' },
+              { value: '95%', label: 'Show-up Rate der Termine' }
+            ],
+            quote: 'Die Zusammenarbeit läuft wie mit einem eigenen Mitarbeiter. Konstant hochwertige Termine mit Entscheidern aus dem Mittelstand – genau unsere Zielgruppe.'
+          },
+          testimonial: {
+            name: 'Vivien Poswiat',
+            position: 'Gründer',
+            image: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/vivien.png'
+          }
+        },
+        {
+          company: 'Intech Automation',
+          logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/intech-v1.svg',
+          industry: 'Industrie-Automation / B2B Tech',
+          duration: '10+ Monate',
+          challenge: {
+            title: 'Die Herausforderung',
+            text: 'Intech Automation vertreibt hochkomplexe technische Produkte im Industriebereich. Die Akquise erfordert tiefes technisches Verständnis und Gespräche auf Augenhöhe mit technischen Einkäufern.'
+          },
+          solution: {
+            title: 'Die Lösung',
+            text: 'LeadGenies hat sich intensiv in die technischen Lösungen eingearbeitet. Seit 10 Monaten unterstützt das Team kontinuierlich bei Kaltakquise, Lead-Nachverfolgung und der Qualifizierung von Interessenten.'
+          },
+          results: {
+            title: 'Das Ergebnis',
+            metrics: [
+              { value: '3-4', label: 'Qualifizierte Termine/Monat' },
+              { value: '10+', label: 'Monate kontinuierlicher Support' },
+              { value: '100%', label: 'Technische Gesprächsqualität' }
+            ],
+            quote: 'Die Qualität der Gespräche ist beeindruckend. LeadGenies liefert genau die richtigen Industriekunden – Unternehmen, die unsere Lösungen wirklich brauchen.'
+          },
+          testimonial: {
+            name: 'Sebastian Rott',
+            position: 'Sales Manager',
+            image: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/intech.png'
+          }
+        }
+      ],
+      cta: 'Ihre Erfolgsgeschichte beginnt hier'
     },
 
     // Contact Section
@@ -378,7 +471,7 @@ export const translations = {
         { label: 'How It Works', href: '#how-it-works' },
         { label: 'ROI Calculator', href: '#roi-calculator' },
         { label: 'Guarantee & GDPR', href: '#guarantee' },
-        { label: 'Partnership Models', href: '#pricing' }
+        { label: 'Pricing Model', href: '#pricing' }
       ],
       ctaText: 'Get Advice Now'
     },
@@ -697,6 +790,99 @@ export const translations = {
           bgColor: '#F5F5F5'
         }
       ]
+    },
+
+    // Case Studies Section
+    caseStudies: {
+      title: 'Success Stories from Our Clients',
+      subtitle: 'How established B2B companies scale their sales with LeadGenies',
+      studies: [
+        {
+          company: 'CoffeeCup.app',
+          logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/app-v1.svg',
+          industry: 'SaaS / B2B Software',
+          duration: '12+ Months',
+          challenge: {
+            title: 'The Challenge',
+            text: 'As a fast-growing SaaS startup with a complex product, CoffeeCup.app lacked the time and resources for systematic cold calling. The internal team was fully occupied with product development and existing customer care.'
+          },
+          solution: {
+            title: 'The Solution',
+            text: 'For over 12 months, a dedicated LeadGenies professional has been working 2-3 hours daily exclusively for CoffeeCup. After intensive product training, he independently conducts cold calling and maintains the CRM system.'
+          },
+          results: {
+            title: 'The Result',
+            metrics: [
+              { value: '3-4', label: 'Qualified Appointments/Month' },
+              { value: '12+', label: 'Months Successful Partnership' },
+              { value: '100%', label: 'Product Knowledge of Team Member' }
+            ],
+            quote: 'The LeadGenies team member knows our tool inside out. The appointments are highly qualified and decision-makers already understand our product in the first conversation.'
+          },
+          testimonial: {
+            name: 'Thomas Reppa',
+            position: 'CEO',
+            image: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/Aerion_-Coffee-Cup.png'
+          }
+        },
+        {
+          company: 'Tech-Experts GmbH',
+          logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/Logo-TEC-Experts-v1.svg',
+          industry: 'IT Consulting / B2B Services',
+          duration: '14+ Months',
+          challenge: {
+            title: 'The Challenge',
+            text: 'Tech-Experts\' internal team was fully occupied with ongoing projects. There was simply no capacity for proactive outbound sales, leaving growth potential untapped.'
+          },
+          solution: {
+            title: 'The Solution',
+            text: 'LeadGenies has been providing an experienced telemarketing professional for 14 months who is perfectly integrated into the team. He participates in internal meetings, uses the CRM systems, and works closely with the sales manager.'
+          },
+          results: {
+            title: 'The Result',
+            metrics: [
+              { value: '3-4', label: 'C-Level Appointments/Month' },
+              { value: '14+', label: 'Months Partnership' },
+              { value: '95%', label: 'Appointment Show-up Rate' }
+            ],
+            quote: 'The collaboration works like with our own employee. Consistently high-quality appointments with decision-makers from mid-market companies – exactly our target audience.'
+          },
+          testimonial: {
+            name: 'Vivien Poswiat',
+            position: 'Founder',
+            image: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/vivien.png'
+          }
+        },
+        {
+          company: 'Intech Automation',
+          logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/intech-v1.svg',
+          industry: 'Industrial Automation / B2B Tech',
+          duration: '10+ Months',
+          challenge: {
+            title: 'The Challenge',
+            text: 'Intech Automation sells highly complex technical products in the industrial sector. Acquisition requires deep technical understanding and conversations at eye level with technical buyers.'
+          },
+          solution: {
+            title: 'The Solution',
+            text: 'LeadGenies has intensively familiarized themselves with the technical solutions. For 10 months, the team has been continuously supporting cold calling, lead follow-up, and qualification of prospects.'
+          },
+          results: {
+            title: 'The Result',
+            metrics: [
+              { value: '3-4', label: 'Qualified Appointments/Month' },
+              { value: '10+', label: 'Months Continuous Support' },
+              { value: '100%', label: 'Technical Conversation Quality' }
+            ],
+            quote: 'The quality of conversations is impressive. LeadGenies delivers exactly the right industrial customers – companies that truly need our solutions.'
+          },
+          testimonial: {
+            name: 'Sebastian Rott',
+            position: 'Sales Manager',
+            image: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/intech.png'
+          }
+        }
+      ],
+      cta: 'Your Success Story Starts Here'
     },
 
     // Contact Section

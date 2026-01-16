@@ -425,6 +425,52 @@ export const translations = {
       cta: 'Ihre Erfolgsgeschichte beginnt hier'
     },
 
+    // Team Section
+    team: {
+      title: 'Wer callt für Sie?',
+      subtitle: 'Lernen Sie unsere erfahrenen Vertriebsprofis kennen – keine anonymen Callcenter-Agents, sondern spezialisierte Experten mit echtem Branchenwissen.',
+      members: [
+        {
+          name: 'Mona Petersen',
+          role: 'Senior Business Development Representative',
+          badge: 'DSGVO-Expertin',
+          image: '/mona-petersen.png',
+          bio: 'Mona bringt ihre juristische Ausbildung und tiefes DSGVO-Verständnis in jeden Kundenkontakt ein. Als charismatische und versierte Callerin schafft sie es mühelos, auch skeptische Entscheider zu erreichen und einen professionellen Erstkontakt herzustellen.',
+          education: {
+            title: 'Hintergrund',
+            text: 'Rechtswissenschaften (Jura) mit Spezialisierung auf Datenschutzrecht'
+          },
+          experience: {
+            title: 'Erfahrung',
+            text: '5+ Jahre B2B-Vertrieb in regulierten Branchen'
+          },
+          strength: {
+            title: 'Besondere Stärke',
+            text: 'Exzellent im Aufbau von Vertrauen bei männlichen C-Level Entscheidern'
+          }
+        },
+        {
+          name: 'Daniel Kock',
+          role: 'Lead Sales Development Representative',
+          badge: 'Top-Performer',
+          image: '/daniel-kock.png',
+          bio: 'Daniel vereint technisches IT-Verständnis mit Erfahrung aus der Personalvermittlung. Als einer unserer Top-Setter und Closer überzeugt er durch sein tiefes Produktverständnis und seine Fähigkeit, komplexe Lösungen verständlich zu kommunizieren.',
+          education: {
+            title: 'Hintergrund',
+            text: 'IT-Branche mit zusätzlicher Expertise in HR & Recruiting'
+          },
+          experience: {
+            title: 'Erfahrung',
+            text: 'Mehrjährige Erfahrung in Personalvermittlung und Tech-Sales'
+          },
+          strength: {
+            title: 'Besondere Stärke',
+            text: 'Spezialist für komplexe Tech-Produkte und Software-as-a-Service'
+          }
+        }
+      ]
+    },
+
     // Contact Section
     contact: {
       title: 'Bereit für mehr Umsatz?',
@@ -883,6 +929,52 @@ export const translations = {
         }
       ],
       cta: 'Your Success Story Starts Here'
+    },
+
+    // Team Section
+    team: {
+      title: 'Who Will Be Calling for You?',
+      subtitle: 'Meet our experienced sales professionals – not anonymous call center agents, but specialized experts with real industry knowledge.',
+      members: [
+        {
+          name: 'Mona Petersen',
+          role: 'Senior Business Development Representative',
+          badge: 'GDPR Expert',
+          image: '/mona-petersen.png',
+          bio: 'Mona brings her legal background and deep GDPR expertise to every client interaction. As a charismatic and skilled caller, she effortlessly connects with even skeptical decision-makers and establishes professional first contacts.',
+          education: {
+            title: 'Background',
+            text: 'Law degree with specialization in data protection law'
+          },
+          experience: {
+            title: 'Experience',
+            text: '5+ years B2B sales in regulated industries'
+          },
+          strength: {
+            title: 'Special Strength',
+            text: 'Excellent at building trust with male C-level decision-makers'
+          }
+        },
+        {
+          name: 'Daniel Kock',
+          role: 'Lead Sales Development Representative',
+          badge: 'Top Performer',
+          image: '/daniel-kock.png',
+          bio: 'Daniel combines technical IT understanding with experience from recruitment. As one of our top setters and closers, he convinces through his deep product understanding and ability to communicate complex solutions clearly.',
+          education: {
+            title: 'Background',
+            text: 'IT industry with additional expertise in HR & recruiting'
+          },
+          experience: {
+            title: 'Experience',
+            text: 'Multiple years of experience in recruitment and tech sales'
+          },
+          strength: {
+            title: 'Special Strength',
+            text: 'Specialist for complex tech products and Software-as-a-Service'
+          }
+        }
+      ]
     },
 
     // Contact Section

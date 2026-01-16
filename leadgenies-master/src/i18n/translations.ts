@@ -11,17 +11,17 @@ export const translations = {
         { label: 'So funktioniert es', href: '#how-it-works' },
         { label: 'ROI-Rechner', href: '#roi-calculator' },
         { label: 'Garantie & DSGVO', href: '#guarantee' },
-        { label: 'Preise', href: '#pricing' }
+        { label: 'Partnerschafts-Modelle', href: '#pricing' }
       ],
-      ctaText: 'Kostenlos beraten lassen'
+      ctaText: 'Strategiegespräch anfordern'
     },
 
     // Hero
     hero: {
-      title: 'Mehr B2B-Termine durch echte deutsche Kaltakquise Experten – gestützt auf KI-Daten',
-      subtitle: 'Wir füllen Ihren Kalender mit qualifizierten Leads. Unsere deutschen Profi-Caller nutzen modernste Daten-Analyse für maximale Erfolgsquoten – Menschlichkeit trifft auf Präzision.',
-      cta: 'Kostenlos anfragen',
-      belowText: 'Schließen Sie sich <strong>über 10.000</strong> erfolgreichen deutschen Unternehmen an, die Telemarketing als ihren Vertriebskanal Nr. 1 nutzen',
+      title: 'Skalierbarer B2B-Vertrieb ohne Personalrisiko.',
+      subtitle: 'Wir sind kein Callcenter. Wir sind Ihre strategische Vertriebserweiterung. LeadGenies integriert sich nahtlos in Ihre Prozesse und liefert vorqualifizierte, entscheidungsreife Termine direkt in die Kalender Ihrer Account Executives. Konzentrieren Sie sich auf das Closing – wir kümmern uns um die Pipeline.',
+      cta: 'Unverbindliches Strategiegespräch anfordern',
+      belowText: 'Für etablierte B2B-Unternehmen mit <strong>ambitionierten Wachstumszielen</strong>',
       reviews: [
         {
           logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/Logo-TEC-Experts-v1.svg',
@@ -66,7 +66,16 @@ export const translations = {
 
     // Trust Section
     trust: {
-      title: 'Viele Unternehmen vertrauen uns bereits – bereit für Ihr Wachstum?',
+      title: 'Für wen ist LeadGenies die richtige Lösung?',
+      subtitle: 'Wir arbeiten mit etablierten B2B-Unternehmen (ab 20 Mitarbeitern) zusammen, die bereits über ein funktionierendes Vertriebsteam verfügen und ihren Sales-Prozess systematisch skalieren möchten. Unsere Partner sehen die Terminvereinbarung nicht als Notlösung, sondern als strategischen Hebel für planbares Wachstum.',
+      checklistTitle: 'Qualifizierungs-Checkliste',
+      checklist: [
+        'Sie haben ein etabliertes Produkt mit klarem Product-Market-Fit.',
+        'Ihr Vertriebsteam (mind. 3-5 Mitarbeiter) kann und will mehr qualifizierte Termine wahrnehmen.',
+        'Ihr durchschnittlicher Auftragswert (ACV) liegt bei über 15.000 €.',
+        'Sie suchen einen langfristigen Partner, keine kurzfristige "Feuerwehr".'
+      ],
+      checklistFooter: 'Trifft das auf Sie zu? Dann lassen Sie uns sprechen.',
       stats: [
         { label: 'Zufriedene Partner' },
         { label: 'Geführte Gespräche' },
@@ -139,16 +148,20 @@ export const translations = {
           title: 'Über unseren Service',
           items: [
             {
-              question: 'Wie verbessert KI Ihr Cold Calling?',
-              answer: 'Wir nutzen KI für ICP-Analyse, Lead-Scoring und Gesprächseinblicke'
+              question: 'Was unterscheidet Sie von einem klassischen Callcenter?',
+              answer: 'Wir sind eine externe SDR-Abteilung (Sales Development Representative). Unsere Mitarbeiter sind hochqualifizierte Vertriebsprofis, die auf Augenhöhe mit Entscheidern kommunizieren. Der Fokus liegt auf der Qualität und Tiefe der Gespräche, nicht auf der reinen Anrufquantität. Wir nutzen zudem KI-Technologie zur Datenanalyse und Prozessoptimierung, was uns von traditionellen Agenturen abhebt.'
             },
             {
-              question: 'Was unterscheidet Sie von anderen Agenturen?',
-              answer: 'Kombination aus deutscher Expertise + KI-Technologie'
+              question: 'Warum gibt es keine 1-Monats-Testphase?',
+              answer: 'Nachhaltiger Vertriebsaufbau ist ein Marathon, kein Sprint. Der erste Monat dient dem Onboarding, der Einarbeitung und der Kalibrierung. Belastbare Ergebnisse und eine signifikante Pipeline-Entwicklung zeigen sich erfahrungsgemäß ab dem zweiten und dritten Monat. Eine 1-Monats-Zusammenarbeit wäre unseriös und würde Ihren und unseren Qualitätsansprüchen nicht gerecht.'
+            },
+            {
+              question: 'Für welche Unternehmen eignet sich Ihr Service NICHT?',
+              answer: 'Unser Service ist nicht geeignet für Startups in der Pre-Seed/Seed-Phase, Unternehmen ohne eigenes Vertriebsteam oder Firmen, deren Produkte/Dienstleistungen einen sehr niedrigen Auftragswert haben. Wir schaffen den größten Mehrwert für etablierte Unternehmen, die einen funktionierenden Prozess haben und diesen skalieren möchten.'
             },
             {
               question: 'Welche Branchen bedienen Sie?',
-              answer: 'B2B SaaS, IT, Beratung, Immobilien, Professional Services'
+              answer: 'B2B SaaS, IT, Beratung, Immobilien, Professional Services – alle Branchen mit komplexen Produkten und höheren Auftragswerten (ACV 15.000+ €)'
             }
           ]
         },
@@ -157,32 +170,32 @@ export const translations = {
           items: [
             {
               question: 'Wie funktioniert Waterfall-Enrichment?',
-              answer: 'Mehrere Datenquellen werden sequenziell validiert'
+              answer: 'Mehrere Datenquellen werden sequenziell validiert, um höchste Datenqualität für Ihre Zielgruppe zu gewährleisten'
             },
             {
               question: 'Was ist Company-Lookalike-Technologie?',
-              answer: 'KI findet ähnliche Unternehmen wie Ihre besten Kunden'
+              answer: 'Unsere KI findet ähnliche Unternehmen wie Ihre besten Kunden, um Ihre Erfolgsquote zu maximieren'
             },
             {
               question: 'Wie stellen Sie Datenqualität sicher?',
-              answer: '7-stufiger Verifizierungsprozess mit 99% Genauigkeit'
+              answer: '7-stufiger Verifizierungsprozess mit 99% Genauigkeit und kontinuierliche Validierung'
             }
           ]
         },
         {
-          title: 'Ergebnisse & Preise',
+          title: 'Ergebnisse & Investition',
           items: [
             {
               question: 'Welche Ergebnisse kann ich erwarten?',
-              answer: 'Durchschnittlich 12-15 qualifizierte Termine pro Monat'
+              answer: 'Durchschnittlich 12-15 qualifizierte Termine pro Monat, abhängig von Ihrer Branche und Zielgruppe'
             },
             {
               question: 'Wie schnell können wir starten?',
-              answer: '48 Stunden vom Vertrag bis zum ersten Anruf'
+              answer: 'Nach dem Strategie-Workshop starten wir innerhalb von 7-10 Tagen mit der aktiven Marktbearbeitung'
             },
             {
-              question: 'Bieten Sie individuelle Pakete an?',
-              answer: 'Ja, basierend auf Ihren spezifischen Anforderungen'
+              question: 'Wie werden die Kosten strukturiert?',
+              answer: 'Unsere Partnerschaften beinhalten eine einmalige Setup-Gebühr, einen monatlichen Retainer und optional eine erfolgsbasierte Komponente. Alle Details besprechen wir individuell im Strategiegespräch.'
             }
           ]
         }
@@ -191,64 +204,66 @@ export const translations = {
 
     // Pricing Section
     pricing: {
-      title: 'Transparente Pakete für planbares Wachstum',
-      subtitle: 'Wählen Sie Ihre Laufzeit - skalieren Sie Ihren Erfolg',
+      title: 'Partnerschafts-Modelle für planbares Wachstum',
+      subtitle: 'Jedes Unternehmen ist einzigartig. Deshalb bieten wir keine Standard-Pakete von der Stange, sondern maßgeschneiderte Lösungen, die sich an Ihren Zielen orientieren. Unsere Partnerschaften sind auf eine langfristige, strategische Zusammenarbeit ausgelegt und beginnen in der Regel mit einer Laufzeit von 6 Monaten.',
+      description: 'Unsere Modelle beinhalten typischerweise:',
       packages: [
         {
-          name: 'Testmonat',
-          duration: '1 Monat',
-          price: 'Preis auf Anfrage',
+          name: 'Setup-Gebühr',
+          duration: 'Einmalig',
+          price: 'Individuell',
           features: [
-            '50-100 Anrufe / Tag',
-            'Inkl. Lead-Liste (KI-basiert)',
+            'Strategie-Workshop & ICP-Definition',
+            'Entwicklung der Gesprächsleitfäden',
+            'KI-gestützte Datenanalyse',
+            'CRM-System Integration',
+            'Team-Onboarding'
+          ],
+          bestFor: 'Strategischer Start',
+          cta: 'Angebot anfordern'
+        },
+        {
+          name: 'Monatlicher Retainer',
+          duration: 'Laufend',
+          price: 'Ab 6 Monate',
+          features: [
+            'Festes Kontingent an SDR-Kapazität',
+            'Definiertes Anrufvolumen',
             'Tägliches Reporting',
-            'Wöchentliche Optimierung',
-            'Geld-zurück-Garantie'
+            'Wöchentliche Kalibrierung',
+            'Quartalsweise Strategie-Sessions'
           ],
-          bestFor: 'Zum Testen',
-          cta: 'Jetzt Angebot einholen'
+          bestFor: 'Kontinuierliches Wachstum',
+          cta: 'Angebot anfordern'
         },
         {
-          name: 'Growth-Paket',
-          duration: '3 Monate',
-          price: 'Preis auf Anfrage',
+          name: 'Erfolgsbasiert',
+          duration: 'Optional',
+          price: 'Performance-Fee',
           features: [
-            'Alles aus dem Testmonat',
-            'Direkter WhatsApp-Draht zum Caller',
-            'Erweitertes KPI-Reporting',
-            'Wöchentliche Anpassung der Lead-Liste',
-            'Prioritäts-Support'
+            'Vergütung pro qualifiziertem Termin',
+            'Incentive-Alignment',
+            'Gemeinsames Erfolgsinteresse',
+            'Transparente Messbarkeit',
+            'Flexible Skalierung'
           ],
-          bestFor: 'Ernsthaftes Wachstum',
-          cta: 'Jetzt Angebot einholen'
-        },
-        {
-          name: 'Scale-Paket',
-          duration: '6 Monate',
-          price: 'Preis auf Anfrage',
-          features: [
-            'Alles aus Growth',
-            'Langfristige Strategie-Planung',
-            'Individuelles Reporting',
-            'Maximale Planungssicherheit',
-            'Bestes Preis-Leistungs-Verhältnis'
-          ],
-          bestFor: 'Marktdominanz',
-          cta: 'Jetzt Angebot einholen'
+          bestFor: 'Maximale Alignment',
+          cta: 'Angebot anfordern'
         }
       ],
-      bestForLabel: 'Ideal für:'
+      bestForLabel: 'Ideal für:',
+      footerText: 'Um ein individuelles Angebot zu erhalten, das perfekt auf Ihre Vertriebsziele zugeschnitten ist, vereinbaren Sie bitte ein unverbindliches Strategiegespräch mit uns.'
     },
 
     // Review Cards Section
     reviewCards: {
       row1: [
         {
-          company: 'CoffeeCup.app',
-          review: 'Die Zusammenarbeit mit LeadGenies hat unsere Vertriebspipeline transformiert. Ihre Caller generieren zuverlässig jede Woche qualitativ hochwertige Termine. Unser Vertriebsteam kann sich jetzt auf den Abschluss konzentrieren, während LeadGenies die Kaltakquise übernimmt.',
-          name: 'Thomas Reppa.',
-          position: 'CEO',
-          bgColor: '#E8F4F8'
+          company: 'Case Study: Maschinenbau-Unternehmen, 150 Mitarbeiter',
+          review: 'Herausforderung: Das interne Vertriebsteam war vollständig mit der Betreuung von Bestandskunden ausgelastet, die Neukundenakquise stagnierte. Lösung: Einsatz eines dedizierten LeadGenies-Teams (entspricht 1.5 Vollzeit-SDRs) zur gezielten Ansprache von C-Level-Entscheidern in der DACH-Region. Ergebnis nach 6 Monaten: 78 qualifizierte Termine, 12 neue Projekte mit einem Pipeline-Wert von 1,2 Mio. €.',
+          name: 'Anonymisiert',
+          position: 'Mittelstand DACH',
+          bgColor: '#F0F8E8'
         },
         {
           company: 'HappyFutter GmbH',

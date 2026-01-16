@@ -368,7 +368,7 @@ export const translations = {
         {
           company: 'Tech-Experts GmbH',
           logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/Logo-TEC-Experts-v1.svg',
-          industry: 'IT-Beratung / B2B Services',
+          industry: 'Personalvermittlung / Recruiting',
           duration: '4 Monate',
           challenge: {
             title: 'Die Herausforderung',
@@ -828,7 +828,7 @@ export const translations = {
         {
           company: 'Tech-Experts GmbH',
           logo: 'https://syntra-eu.fra1.cdn.digitaloceanspaces.com/leadgenies/Logo-TEC-Experts-v1.svg',
-          industry: 'IT Consulting / B2B Services',
+          industry: 'Recruitment / HR Services',
           duration: '4 Months',
           challenge: {
             title: 'The Challenge',
